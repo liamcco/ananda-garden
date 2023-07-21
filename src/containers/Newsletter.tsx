@@ -1,7 +1,7 @@
 import Image from "next/image";
 //import logo_big from "../../assets/logo_big.webp";
 
-const Nyhetsbrev = () => (
+function Nyhetsbrev() {
   <div className="ananda__header section__padding">
     <div className="ananda__header-content">
       <h1 className="gradient__text">Prenumerera på vårat nyhetsbrev!</h1>
@@ -19,7 +19,7 @@ const Nyhetsbrev = () => (
     <div className="ananda__header-image">
       <Image src={""} alt="logo_big" />
     </div>
-  </div>
-);
+  </div>;
+}
 
 export default Nyhetsbrev;

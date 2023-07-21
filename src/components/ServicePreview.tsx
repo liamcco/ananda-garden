@@ -12,7 +12,7 @@ interface Props {
   img: string;
 }
 
-const ServicePreview = (props: Props) => (
+function ServicePreview(props: Props) {
   <div className="w-5/6">
     <h1>{props.data.heading}</h1>
     <div className="flex items-center">
@@ -29,7 +29,7 @@ const ServicePreview = (props: Props) => (
         ))}
       </div>
     </div>
-  </div>
-);
+  </div>;
+}
 
 export default ServicePreview;
