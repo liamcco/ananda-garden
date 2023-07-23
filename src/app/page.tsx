@@ -1,17 +1,11 @@
-import { Articles, Header, ServicesPreview, Subscribe } from "@/containers";
+import { Header } from "@/containers";
 
 const Home = () => (
-  <div>
-    <div className="background">
+  <main>
+    <div className="m-4">
       <Header />
     </div>
-
-    <div className="flex flex-col items-center h-min-screen">
-      <Articles />
-      <Subscribe />
-      <ServicesPreview />
-    </div>
-  </div>
+  </main>
 );
 
 export default Home;

@@ -1,8 +1,6 @@
+import { Navbar, Footer } from "@/containers";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Hanuman Ananda Garden",
@@ -16,7 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="bg-gradient-to-t flex flex-col min-h-screen">
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

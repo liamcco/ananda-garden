@@ -1,9 +1,7 @@
-import { Sign } from "@/components";
-
 function Header() {
   return (
-    <div className="header">
-      <Sign />
+    <div className="p-4">
+      <h1>Hanuman Ananda Garden</h1>
     </div>
   );
 }

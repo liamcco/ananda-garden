@@ -1,10 +1,9 @@
-import { Subscribe } from "@/containers";
-
-const Vandrarhem = () => (
-  <>
-    <h1>Vandrarhem</h1>
-    <Subscribe />
-  </>
-);
+function Vandrarhem() {
+  return (
+    <main>
+      <h1>Vandrarhem</h1>
+    </main>
+  );
+}
 
 export default Vandrarhem;
