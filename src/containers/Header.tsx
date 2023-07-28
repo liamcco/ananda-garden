@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div className="p-4">
-      <h1>Hanuman Ananda Garden</h1>
+      <h1 className="text-xl font-extrabold">Hanuman Ananda Garden</h1>
     </div>
   );
 }

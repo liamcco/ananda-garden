@@ -1,5 +1,5 @@
 function About() {
-  <div className="navmargin">
+  <div>
     <h1>About</h1>
   </div>;
 }
