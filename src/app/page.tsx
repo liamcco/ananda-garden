@@ -1,12 +1,12 @@
-import { Header, Services } from "@/containers";
+import { BookNow, Header, NewsletterBanner, Services } from "@/containers";
 
 const Home = () => (
-  <main>
-    <div className="m-4">
-      <Header />
-      <Services />
-    </div>
-  </main>
+  <>
+    <Header />
+    <BookNow />
+    <NewsletterBanner />
+    <Services />
+  </>
 );
 
 export default Home;

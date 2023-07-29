@@ -2,7 +2,7 @@ import { Logo } from "@/components";
 import { FaChevronDown } from "react-icons/fa";
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 w-full">
+    <nav className="sticky top-0 w-full">
       <div className="p-3 bg-primary-400 flex justify-between rounded-b-md">
         <ul className="flex gap-4 items-center font-bold">
           <li>

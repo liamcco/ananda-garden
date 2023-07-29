@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <div>
+    <div className="max-w-7xl m-auto px-4 my-4">
       <h2 className="text-3xl font-extrabold mb-4">Våra tjänster</h2>
       <div className="flex flex-col items-center gap-4">
         <div className="border rounded-lg p-2 shadow-md">
