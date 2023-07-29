@@ -19,7 +19,7 @@ export default function Logo(props: Props) {
 
   return (
     <div style={{ width: width }}>
-      <div className="bg-white rounded-full flex justify-center items-center aspect-square w-full">
+      <div className="bg-white rounded-full flex justify-center items-center aspect-square w-full shadow-md">
         <Image src={logo} alt="logo" className="w-3/4" />
       </div>
     </div>

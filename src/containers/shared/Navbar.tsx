@@ -2,22 +2,14 @@
 
 import { Logo } from "@/components";
 import { FaChevronDown } from "react-icons/fa";
+import { useState } from "react"; // Import useState hook
 
 export default function Navbar() {
-  function toggleNavbar() {
-    const bottomNav = document.getElementById("bottom-nav");
-    if (!bottomNav) return;
-
-    if (bottomNav.classList.contains("hidden")) {
-      bottomNav.classList.remove("hidden");
-    } else {
-      bottomNav.classList.add("hidden");
-    }
-  }
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // State to track dropdown visibility
 
   return (
     <nav className="sticky top-0 w-full">
-      <div className="p-3 bg-primary-400 rounded-b-md">
+      <div className="p-3 bg-primary-400 rounded-b-md relative">
         <div className="flex justify-between">
           <ul className="flex gap-4 items-center font-bold">
             <li>
@@ -35,12 +27,21 @@ export default function Navbar() {
               <a href="/vandrarhem">Vandrarhem</a>
             </li>
           </ul>
-          <button className="mx-1" onClick={toggleNavbar}>
+          <button
+            className="mx-1"
+            onClick={() => setIsDropdownOpen((old) => !old)}
+          >
             <FaChevronDown />
           </button>
         </div>
-        <div id="bottom-nav" className="m-4 hidden">
-          <ul className="flex flex-col items-end italic gap-4">
+
+        <div
+          id="bottom-nav"
+          className={`transition-[height_0.3s_ease] ${
+            isDropdownOpen ? "overflow-auto h-fit" : "overflow-hidden h-0"
+          }`}
+        >
+          <ul className="m-4 flex flex-col items-end italic gap-4">
             <li>
               <a href="/about">Om oss</a>
             </li>

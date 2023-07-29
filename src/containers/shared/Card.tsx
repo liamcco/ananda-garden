@@ -4,6 +4,8 @@ interface Props {
 
 export default function Card(props: Props) {
   return (
-    <div className="border rounded-lg p-2 shadow-md">{props.children}</div>
+    <div className="border rounded-lg p-2 shadow-md bg-white">
+      {props.children}
+    </div>
   );
 }
