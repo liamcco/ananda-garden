@@ -3,7 +3,7 @@ import { shopService, clinicService, hostelService } from "@/mockdata/services";
 
 export default function Services() {
   return (
-    <div className="max-w-7xl m-auto px-4 my-4 w-full">
+    <section className="max-w-7xl m-auto px-4 my-4 w-full">
       <h2 className="text-3xl font-extrabold mb-4">Våra tjänster</h2>
       <div className="flex flex-col items-center gap-4">
         <ServiceCard
@@ -19,6 +19,6 @@ export default function Services() {
           description={hostelService.description}
         />
       </div>
-    </div>
+    </section>
   );
 }
