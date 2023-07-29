@@ -4,8 +4,8 @@ import { FaAirbnb } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="mt-auto border-t-1 border-slate-400">
-      <div className="p-8 bg-primary-400">
+    <footer className="mt-auto">
+      <div className="p-8 bg-primary-400 rounded-t-md border-t-1 border-slate-400">
         <div className="w-full flex flex-col items-center p-4 mb-4">
           <h3>Vet du vad en orgonit är?</h3>
           <a href="/butik">
