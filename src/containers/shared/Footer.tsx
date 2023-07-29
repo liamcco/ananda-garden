@@ -13,7 +13,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="flex justify-between gap-2 mb-4 p-4">
+        <div className="m-auto max-w-sm flex justify-between gap-2 mb-4 p-4">
           <FaFacebookSquare size="3em" />
           <FaInstagramSquare size="3em" />
           <FaAirbnb size="3em" />

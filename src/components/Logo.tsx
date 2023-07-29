@@ -2,7 +2,7 @@ import logo from "@/assets/logo.png";
 import Image from "next/image";
 
 interface Props {
-  size?: "icon" | string;
+  size?: "icon" | "title" | string;
 }
 
 export default function Logo(props: Props) {
@@ -10,6 +10,8 @@ export default function Logo(props: Props) {
     switch (props.size) {
       case "icon":
         return "48px";
+      case "title":
+        return "348px";
       default:
         return "100%";
     }
