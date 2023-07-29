@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-t flex flex-col min-h-screen">
+      <body className="bg-primary-400 flex flex-col min-h-screen">
         <Navbar />
-        {children}
+        <main className="bg-white">{children}</main>
         <Footer />
       </body>
     </html>

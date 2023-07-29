@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="p-4">
+    <div className="max-w-7xl m-auto px-4 my-4">
       <h1 className="text-xl font-extrabold">Hanuman Ananda Garden</h1>
     </div>
   );
