@@ -14,9 +14,15 @@ export default function Footer() {
         </div>
 
         <div className="m-auto max-w-sm flex justify-between gap-2 mb-4 p-4">
-          <FaFacebookSquare size="3em" />
-          <FaInstagramSquare size="3em" />
-          <FaAirbnb size="3em" />
+          <a href="https://www.facebook.com/hanumananandagarden/">
+            <FaFacebookSquare size="3em" />
+          </a>
+          <a href="https://www.instagram.com/hanumananandagarden/">
+            <FaInstagramSquare size="3em" />
+          </a>
+          <a href="">
+            <FaAirbnb size="3em" />
+          </a>
         </div>
 
         <div className="w-full flex justify-center">

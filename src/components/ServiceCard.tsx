@@ -1,5 +1,5 @@
 import PlaceholderImage from "@/mockdata/PlaceholderImage";
-import Card from "./shared/Card";
+import Card from "./Card";
 
 interface Props {
   title: string;
