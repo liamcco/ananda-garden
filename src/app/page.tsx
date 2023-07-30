@@ -1,6 +1,6 @@
 import {
   BookNow,
-  Header,
+  Hero,
   NewsPreview,
   NewsletterBanner,
   Services,
@@ -8,7 +8,7 @@ import {
 
 const Home = () => (
   <div className="flex flex-col gap-4">
-    <Header />
+    <Hero />
     <BookNow />
     <NewsletterBanner />
     <NewsPreview />

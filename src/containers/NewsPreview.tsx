@@ -1,4 +1,4 @@
-import Card from "./shared/Card";
+import Card from "../components/Card";
 
 export default function NewsPreview() {
   return (

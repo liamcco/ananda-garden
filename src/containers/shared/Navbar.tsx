@@ -2,10 +2,10 @@
 
 import { Logo } from "@/components";
 import { FaChevronDown } from "react-icons/fa";
-import { useState } from "react"; // Import useState hook
+import { useState } from "react";
 
 export default function Navbar() {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // State to track dropdown visibility
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
     <nav className="sticky top-0 w-full">

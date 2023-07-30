@@ -1,4 +1,4 @@
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "../components/ServiceCard";
 import { shopService, clinicService, hostelService } from "@/mockdata/services";
 
 export default function Services() {
