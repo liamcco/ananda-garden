@@ -2,7 +2,7 @@ import { WorkshopCard } from "@/components";
 
 export default function Workshops() {
   return (
-    <section className="max-w-7xl m-auto px-4 my-4 w-full">
+    <section className="container">
       <h2 className="text-xl font-bold">Workshops</h2>
       <p className="italic">Denna månad erbjuder vi följande workshops</p>
 

@@ -1,14 +1,15 @@
-import { NewsPreview } from "@/containers";
-import PlaceholderImage from "@/mockdata/PlaceholderImage";
+import { BookNow, NewsPreview } from "@/containers";
+import ContactInformation from "@/containers/ContactInformation";
+import PageHeader from "@/containers/PageHeader";
+import { contactShiming } from "@/mockdata/contacts";
 
 function Klinik() {
   return (
-    <div className="flex flex-col gap-4">
-      <div className="max-w-7xl m-auto px-4 my-4 w-full">
-        <PlaceholderImage />
-        <h1 className="text-4xl font-bold text-center">Klinik</h1>
-      </div>
+    <div className="flex flex-col gap-8">
+      <PageHeader title="Klinik" />
+      <BookNow />
       <NewsPreview />
+      <ContactInformation contact={contactShiming} />
     </div>
   );
 }

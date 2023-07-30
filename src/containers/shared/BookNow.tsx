@@ -1,6 +1,6 @@
 export default function BookNow() {
   return (
-    <div className="max-w-7xl m-auto px-4 my-4 w-full">
+    <div className="container">
       <div className="flex items-center justify-between">
         <h2 className="text-3xl font-extrabold">Boka</h2>
         <div>

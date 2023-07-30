@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 w-full">
       <div className="p-3 bg-primary-400 rounded-b-md relative">
-        <div className="flex justify-between">
+        <div className="flex justify-between container">
           <ul className="flex gap-4 items-center font-bold">
             <li>
               <a href="/">

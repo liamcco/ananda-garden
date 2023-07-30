@@ -2,7 +2,7 @@ import Card from "../components/Card";
 
 export default function NewsPreview() {
   return (
-    <div className="max-w-7xl m-auto px-4 my-4 w-full">
+    <div className="container">
       <h2 className="text-xl font-bold mb-2">Nyheter och erbjudanden</h2>
       <Card>
         <h3 className="text-xl font-bold text-center">Öppetider:</h3>
