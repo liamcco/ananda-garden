@@ -26,6 +26,9 @@ module.exports = {
       },
       ...colors
     },
+    container: {
+      center: true,
+    },
     extend: {},
   },
   plugins: [],

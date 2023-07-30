@@ -3,9 +3,9 @@ import PlaceholderImage from "@/mockdata/PlaceholderImage";
 
 function Header() {
   return (
-    <div className="max-w-7xl m-auto px-4 my-4 w-full">
+    <div className="container">
       <PlaceholderImage />
-      <div className="flex items-center py-4">
+      <div className="flex items-center py-4 justify-around">
         <Logo size="title" />
         <h1 className="text-4xl font-extrabold text-right">
           Hanuman Ananda Garden

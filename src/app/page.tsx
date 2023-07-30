@@ -7,7 +7,7 @@ import {
 } from "@/containers";
 
 const Home = () => (
-  <div className="flex flex-col gap-4">
+  <div className="flex flex-col gap-8">
     <Hero />
     <BookNow />
     <NewsletterBanner />
