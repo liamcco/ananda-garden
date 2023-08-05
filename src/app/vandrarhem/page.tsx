@@ -1,4 +1,4 @@
-import { BookNow, NewsPreview, Article } from "@/containers";
+import { BookNow, NewsPreview, Article, HostelOverview } from "@/containers";
 import PageHeader from "@/containers/PageHeader";
 import { hostelInfo } from "@/mockdata/info";
 
@@ -6,9 +6,8 @@ function Vandrarhem() {
   return (
     <div className="flex flex-col gap-8">
       <PageHeader title="Vandrarhem" />
-      <BookNow />
+      <HostelOverview />
       <Article content={hostelInfo} />
-      <NewsPreview />
     </div>
   );
 }

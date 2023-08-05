@@ -7,10 +7,22 @@ export default function Footer() {
     <footer className="mt-auto">
       <div className="p-8 bg-primary-400 rounded-t-md border-t-1 border-slate-400">
         <div className="w-full flex flex-col items-center p-4 mb-4">
-          <h3>Vet du vad en orgonit är?</h3>
-          <a href="/butik">
-            <p>Besök vår butik!</p>
-          </a>
+          <div className="mt-4 text-center">
+            <a href="tel:+46707256152">
+              <p>
+                Ring oss: <span className="font-bold p-2">070-725 61 52</span>
+              </p>
+            </a>
+          </div>
+
+          <div className="mt-4 text-center">
+            <a href="https://goo.gl/maps/L5vNk5LPoF36CWPa6">
+              <p>
+                Hitta hit:{" "}
+                <span className="font-bold p-2">Edsgatan 39, 66230 Åmål</span>
+              </p>
+            </a>
+          </div>
         </div>
 
         <div className="m-auto max-w-sm flex justify-between gap-2 mb-4 p-4">
