@@ -14,7 +14,9 @@ export default function Navbar() {
           <ul className="flex gap-4 items-center font-bold">
             <li>
               <a href="/">
-                <Logo size="icon" />
+                <div className="bg-white rounded-full flex justify-center items-center aspect-square p-2">
+                  <Logo size="icon" />
+                </div>
               </a>
             </li>
             <li>

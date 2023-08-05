@@ -7,21 +7,15 @@ interface Props {
 
 export default function Logo(props: Props) {
   const width = ((size) => {
-    switch (props.size) {
+    switch (size) {
       case "icon":
-        return "48px";
+        return "38px";
       case "title":
-        return "348px";
+        return "148px";
       default:
         return "100%";
     }
   })(props.size);
 
-  return (
-    <div style={{ width: width }}>
-      <div className="bg-white rounded-full flex justify-center items-center aspect-square w-full shadow-md">
-        <Image src={logo} alt="logo" className="w-3/4" />
-      </div>
-    </div>
-  );
+  return <Image src={logo} alt="logo" style={{ width: width }} />;
 }
