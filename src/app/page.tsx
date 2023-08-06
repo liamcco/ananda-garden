@@ -6,14 +6,12 @@ import {
   ShopNews,
 } from "@/containers";
 
-const Home = () => (
+export default function Page() {
   <div className="flex flex-col gap-8">
     <Hero />
     <BookNow />
     <NewsletterBanner />
     <ShopNews />
     <Services />
-  </div>
-);
-
-export default Home;
+  </div>;
+}

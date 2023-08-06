@@ -7,7 +7,7 @@ import {
 } from "@/containers";
 import { contactShiming } from "@/mockdata/contacts";
 
-function Klinik() {
+export default function Page() {
   return (
     <div className="flex flex-col gap-8">
       <PageHeader title="Klinik" />
@@ -20,5 +20,3 @@ function Klinik() {
     </div>
   );
 }
-
-export default Klinik;

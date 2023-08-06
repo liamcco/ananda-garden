@@ -1,7 +1,7 @@
 import { PageHeader, ContactInformation } from "@/containers";
 import { contactOve } from "@/mockdata/contacts";
 
-function Prices() {
+export default function Page() {
   return (
     <div className="flex flex-col gap-8">
       <PageHeader title="Prices" />
@@ -10,5 +10,3 @@ function Prices() {
     </div>
   );
 }
-
-export default Prices;

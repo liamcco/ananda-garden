@@ -6,7 +6,7 @@ import {
 } from "@/containers";
 import PageHeader from "@/containers/shared/PageHeader";
 
-function Vandrarhem() {
+export default function Page() {
   return (
     <div className="flex flex-col gap-8">
       <PageHeader title="Vandrarhem" />
@@ -17,5 +17,3 @@ function Vandrarhem() {
     </div>
   );
 }
-
-export default Vandrarhem;

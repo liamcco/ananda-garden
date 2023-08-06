@@ -1,7 +1,7 @@
 import { PageHeader, ContactInformation } from "@/containers";
 import { contactShiming } from "@/mockdata/contacts";
 
-function Terapi() {
+export default function Page() {
   return (
     <div className="flex flex-col gap-8">
       <PageHeader title="Terapi" />
@@ -10,5 +10,3 @@ function Terapi() {
     </div>
   );
 }
-
-export default Terapi;
