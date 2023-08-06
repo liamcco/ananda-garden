@@ -1,9 +1,9 @@
 import {
   BookNow,
   Hero,
-  NewsPreview,
   NewsletterBanner,
   Services,
+  ShopNews,
 } from "@/containers";
 
 const Home = () => (
@@ -11,7 +11,7 @@ const Home = () => (
     <Hero />
     <BookNow />
     <NewsletterBanner />
-    <NewsPreview />
+    <ShopNews />
     <Services />
   </div>
 );

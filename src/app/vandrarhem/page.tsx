@@ -1,13 +1,19 @@
-import { BookNow, NewsPreview, Article, HostelOverview } from "@/containers";
-import PageHeader from "@/containers/PageHeader";
-import { hostelInfo } from "@/mockdata/info";
+import {
+  HostelOverview,
+  HostelSummary,
+  HostelInformation,
+  HostelNews,
+} from "@/containers";
+import PageHeader from "@/containers/shared/PageHeader";
 
 function Vandrarhem() {
   return (
     <div className="flex flex-col gap-8">
       <PageHeader title="Vandrarhem" />
+      <HostelSummary />
       <HostelOverview />
-      <Article content={hostelInfo} />
+      <HostelNews />
+      <HostelInformation />
     </div>
   );
 }

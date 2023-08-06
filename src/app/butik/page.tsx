@@ -1,14 +1,20 @@
-import { Workshops, NewsPreview } from "@/containers";
-import PageHeader from "@/containers/PageHeader";
-import ShopItemCatalogue from "@/containers/ShopItemsCatalogue";
+import {
+  Workshops,
+  ShopNews,
+  PageHeader,
+  ShopItemsCatalogue,
+  OpeningHours,
+} from "@/containers";
+import { openingHours } from "@/mockdata/openingHours";
 
 export default function Butik() {
   return (
     <div className="flex flex-col gap-8">
       <PageHeader title="Butik" />
-      <NewsPreview />
+      <OpeningHours hours={openingHours} />
+      <ShopNews />
+      <ShopItemsCatalogue />
       <Workshops />
-      <ShopItemCatalogue />
     </div>
   );
 }

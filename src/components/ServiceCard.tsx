@@ -1,5 +1,6 @@
 import PlaceholderImage from "@/mockdata/PlaceholderImage";
 import Card from "./Card";
+import { PageHeader } from "@/containers";
 
 interface Props {
   title: string;
@@ -8,8 +9,7 @@ interface Props {
 export default function ServiceCard(props: Props) {
   return (
     <Card>
-      <h3 className="text-xl font-bold text-center">{props.title}</h3>
-      <PlaceholderImage />
+      <PageHeader title={props.title} />
       <p className="p-2">{props.description}</p>
     </Card>
   );
