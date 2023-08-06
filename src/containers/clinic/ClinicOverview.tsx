@@ -1,4 +1,5 @@
 import { Ball } from "@/components";
+import massage from "@/mockdata/images/massage.webp";
 
 export default function ClinicOverview() {
   return (
@@ -13,7 +14,7 @@ export default function ClinicOverview() {
         </a>
 
         <a href="/klinik/massage">
-          <Ball name="Massage" />
+          <Ball name="Massage" image={massage.src} />
         </a>
 
         <a href="/klinik/terapi">
