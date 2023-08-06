@@ -1,16 +1,14 @@
 import { Ball } from "@/components";
 import massage from "@/mockdata/images/massage.webp";
+import aku from "@/mockdata/images/aku.webp";
+import therapy from "@/mockdata/images/therapy.jpg";
 
 export default function ClinicOverview() {
   return (
     <div className="container">
       <div className="flex flex-wrap mb-8 justify-around">
         <a href="/klinik/akupunktur">
-          <Ball name="Akupunktur" />
-        </a>
-
-        <a href="/klinik/akupunktur">
-          <Ball name="Skönhets&shy;akupunktur" />
+          <Ball name="Akupunktur" image={aku.src} />
         </a>
 
         <a href="/klinik/massage">
@@ -18,7 +16,7 @@ export default function ClinicOverview() {
         </a>
 
         <a href="/klinik/terapi">
-          <Ball name="Terapi" />
+          <Ball name="Terapi" image={therapy.src} />
         </a>
       </div>
       <div className="flex justify-center">

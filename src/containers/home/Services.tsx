@@ -1,5 +1,6 @@
 import ServiceCard from "../../components/ServiceCard";
 import { shopService, clinicService, hostelService } from "@/mockdata/services";
+import clinicImage from "@/mockdata/images/koppning.webp";
 
 export default function Services() {
   return (
@@ -13,6 +14,7 @@ export default function Services() {
         <ServiceCard
           title={clinicService.title}
           description={clinicService.description}
+          image={clinicImage.src}
         />
         <ServiceCard
           title={hostelService.title}

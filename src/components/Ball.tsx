@@ -3,7 +3,7 @@ interface Props {
   image?: string;
 }
 
-export default function BallWithText(props: Props) {
+export default function Ball(props: Props) {
   const background = props.image ? (
     <div
       style={{
@@ -22,7 +22,7 @@ export default function BallWithText(props: Props) {
       </div>
 
       {props.name && (
-        <div className="py-1 px-2 bg-primary-900 text-white rounded-md w-min">
+        <div className="py-1 px-2 bg-primary-900 text-white rounded-md w-min relative -top-4">
           <h3 className="inline">{props.name}</h3>
         </div>
       )}
