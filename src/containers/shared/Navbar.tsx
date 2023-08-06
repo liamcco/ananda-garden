@@ -8,13 +8,15 @@ export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 w-full">
+    <nav className="sticky top-0 w-full z-10">
       <div className="p-3 bg-primary-400 rounded-b-md relative">
         <div className="flex justify-between container">
           <ul className="flex gap-4 items-center font-bold">
             <li>
               <a href="/">
-                <Logo size="icon" />
+                <div className="bg-white rounded-full flex justify-center items-center aspect-square p-2">
+                  <Logo size="icon" />
+                </div>
               </a>
             </li>
             <li>

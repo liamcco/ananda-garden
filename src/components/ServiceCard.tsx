@@ -1,15 +1,16 @@
 import PlaceholderImage from "@/mockdata/PlaceholderImage";
 import Card from "./Card";
+import { PageHeader } from "@/containers";
 
 interface Props {
   title: string;
   description: string;
+  image?: string;
 }
 export default function ServiceCard(props: Props) {
   return (
     <Card>
-      <h3 className="text-xl font-bold text-center">{props.title}</h3>
-      <PlaceholderImage />
+      <PageHeader title={props.title} image={props.image} />
       <p className="p-2">{props.description}</p>
     </Card>
   );
