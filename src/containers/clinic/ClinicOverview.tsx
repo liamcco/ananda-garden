@@ -4,11 +4,11 @@ export default function ClinicOverview() {
   return (
     <div className="container">
       <div className="flex flex-wrap mb-8 justify-around">
-        <a href="/klinik/akupuktur">
+        <a href="/klinik/akupunktur">
           <Ball name="Akupunktur" />
         </a>
 
-        <a href="/klinik/akupuktur">
+        <a href="/klinik/akupunktur">
           <Ball name="Skönhets&shy;akupunktur" />
         </a>
 

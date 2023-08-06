@@ -5,13 +5,13 @@ export default function HostelOverview() {
     <div className="container">
       <h2 className="text-3xl font-bold text-center">Våra rum</h2>
       <div className="flex flex-wrap mb-8 justify-around">
-        <a href="/vandrarhem/lakshmi">
+        <a href="/vandrarhem/room/lakshmi">
           <Ball name="Lakshmi" />
         </a>
-        <a href="/vandrarhem/ganesha">
+        <a href="/vandrarhem/room/ganesha">
           <Ball name="Ganesha" />
         </a>
-        <a href="/vandrarhem/hanuman">
+        <a href="/vandrarhem/room/hanuman">
           <Ball name="Hauman" />
         </a>
       </div>
