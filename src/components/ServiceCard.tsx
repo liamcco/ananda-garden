@@ -1,4 +1,3 @@
-import PlaceholderImage from "@/mockdata/PlaceholderImage";
 import Card from "./Card";
 import { PageHeader } from "@/containers";
 
