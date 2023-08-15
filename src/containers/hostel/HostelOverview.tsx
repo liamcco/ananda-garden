@@ -1,4 +1,5 @@
 import { Ball } from "@/components";
+import { lakshmi, ganesha, hanuman } from "@/mockdata/images";
 
 export default function HostelOverview() {
   return (
@@ -6,13 +7,13 @@ export default function HostelOverview() {
       <h2 className="text-3xl font-bold text-center">Våra rum</h2>
       <div className="flex flex-wrap mb-8 justify-around">
         <a href="/vandrarhem/room/lakshmi">
-          <Ball name="Lakshmi" />
+          <Ball name="Lakshmi" image={lakshmi.src} />
         </a>
         <a href="/vandrarhem/room/ganesha">
-          <Ball name="Ganesha" />
+          <Ball name="Ganesha" image={ganesha.src} />
         </a>
         <a href="/vandrarhem/room/hanuman">
-          <Ball name="Hauman" />
+          <Ball name="Hauman" image={hanuman.src} />
         </a>
       </div>
       <div className="flex justify-center">
