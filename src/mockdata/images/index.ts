@@ -9,3 +9,7 @@ export { default as kitchen } from './kitchen.webp';
 export { default as store } from './store.webp';
 
 export { default as scout } from './scout.jpeg';
+
+export { default as dröm } from './dröm.webp';
+export { default as smycke } from './smycke.webp';
+export { default as tarot } from './tarot.webp';

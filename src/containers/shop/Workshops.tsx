@@ -1,4 +1,5 @@
 import { WorkshopCard } from "@/components";
+import { smycke, tarot, dröm } from "@/mockdata/images";
 
 export default function Workshops() {
   return (
@@ -10,9 +11,9 @@ export default function Workshops() {
       </p>
 
       <div className="flex flex-col gap-4 my-2">
-        <WorkshopCard title="Smyckestillverkning" />
-        <WorkshopCard title="Tarotläsning" />
-        <WorkshopCard title="Drömfångare" />
+        <WorkshopCard title="Smyckestillverkning" image={smycke.src} />
+        <WorkshopCard title="Tarotläsning" image={tarot.src} />
+        <WorkshopCard title="Drömfångare" image={dröm.src} />
       </div>
     </section>
   );
