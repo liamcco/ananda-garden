@@ -5,12 +5,13 @@ import { PageHeader } from "@/containers";
 
 interface Props {
   title: string;
+  image?: string;
 }
 export default function ServiceCard(props: Props) {
   return (
     <Card>
       <div className="flex flex-col">
-        <PageHeader title={props.title} size="small" />
+        <PageHeader title={props.title} image={props.image} size="small" />
         <a href="" className="self-end flex items-center">
           Anmäl dig här <GrFormNextLink />
         </a>

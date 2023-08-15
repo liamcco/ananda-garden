@@ -10,12 +10,11 @@ export default function HostelInformation() {
             tillvaro med möjlighet att meditera, bada i vår naturpool. Väl på
             plats finns det möjlighet att boka akupunktur, guasha-massage,
             bearbetande coachning, tarotläsning eller varför inte ta en titt i
-            vår spirituella butik.
+            vår spirituella butik. Lakan och handdukar samt städning ingår i
+            priset.
           </p>
 
-          <p className="text-red-600">FRUKOST INGÅR EJ!</p>
-
-          <p>Lakan och handdukar samt städning ingår i priset.</p>
+          <p className="text-red-600 font-bold">FRUKOST INGÅR EJ!</p>
         </div>
 
         <div className="space-y-4">
