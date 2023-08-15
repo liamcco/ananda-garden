@@ -20,6 +20,7 @@ export { default as ClinicOverview } from './clinic/ClinicOverview'
 export { default as ClinicInformation } from './clinic/ClinicInformation'
 export { default as ClinicNews } from './clinic/ClinicNews'
 export { default as ClinicSummary } from './clinic/ClinicSummary'
+export { default as AkupunkturInformation } from './clinic/AkupunkturInformation'
 
 export { default as HostelOverview } from './hostel/HostelOverview'
 export { default as HostelInformation } from './hostel/HostelInformation'
