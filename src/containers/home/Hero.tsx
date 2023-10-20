@@ -1,5 +1,4 @@
 import { Logo } from "@/components";
-import PlaceholderImage from "@/mockdata/PlaceholderImage";
 import PageHeader from "../shared/PageHeader";
 import { scout } from "@/mockdata/images";
 

@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 
 import { Logo } from "@/components";
 import { FaChevronDown } from "react-icons/fa";
@@ -37,11 +38,12 @@ export default function Navbar() {
           </button>
         </div>
 
-        <div
+        <motion.div
+          layout
+          initial={false}
           id="bottom-nav"
-          className={`transition-[height_0.3s_ease] ${
-            isDropdownOpen ? "overflow-auto h-fit" : "overflow-hidden h-0"
-          }`}
+          className="overflow-hidden"
+          animate={{ height: isDropdownOpen ? 150 : 0 }}
         >
           <ul className="m-4 flex flex-col items-end italic gap-4">
             <li>
@@ -54,7 +56,7 @@ export default function Navbar() {
               <a href="https://ananda-stones.vercel.app">Ananda Stones</a>
             </li>
           </ul>
-        </div>
+        </motion.div>
       </div>
     </nav>
   );
