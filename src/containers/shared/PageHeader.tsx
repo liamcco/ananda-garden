@@ -35,7 +35,7 @@ export default function PageHeader(props: Props) {
 
   return (
     <div className="container">
-      <div className="rounded-lg mb-2 aspect-video overflow-hidden shadow">
+      <div className="rounded-lg mb-2 overflow-hidden shadow max-h-[50vh] h-full w-full aspect-video">
         <Background image={props.image}>
           {props.title && (
             <div className="bottom-0 w-full h-1/2 bg-gradient-to-t from-black flex flex-col justify-end items-start">

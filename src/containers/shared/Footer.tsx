@@ -1,6 +1,5 @@
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import { FaAirbnb } from "react-icons/fa";
 
 export default function Footer() {
   return (

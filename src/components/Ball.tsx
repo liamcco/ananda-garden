@@ -1,23 +1,17 @@
+import Image from "next/image";
+import ImageFallback from "./ImageFallback";
+
 interface Props {
   name?: string;
   image?: string;
 }
 
 export default function Ball(props: Props) {
-  const background = props.image ? (
-    <div
-      style={{
-        backgroundImage: `url(${props.image})`,
-        backgroundSize: "cover",
-      }}
-      className="w-full h-full flex flex-col justify-end"
-    />
-  ) : (
-    <div className="bg-primary-600 w-full h-full" />
-  );
+  const background = <ImageFallback />;
+
   return (
     <div className="flex flex-col items-center gap-1 p-2">
-      <div className="w-32 aspect-square rounded-full overflow-hidden">
+      <div className="overflow-hidden w-32 h-32 rounded-full border-2">
         {background}
       </div>
 

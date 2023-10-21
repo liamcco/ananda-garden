@@ -11,8 +11,8 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 w-full z-10">
       <div className="p-3 bg-primary-400 rounded-b-md relative">
-        <div className="flex justify-between container">
-          <ul className="flex gap-4 items-center font-bold">
+        <div className="flex justify-between container max-w-4xl sm:px-8">
+          <ul className="flex flex-wrap gap-4 items-center font-bold">
             <li>
               <a href="/">
                 <div className="bg-white rounded-full flex justify-center items-center aspect-square p-2">
@@ -42,7 +42,7 @@ export default function Navbar() {
           layout
           initial={false}
           id="bottom-nav"
-          className="overflow-hidden"
+          className="overflow-hidden max-w-4xl container sm:px-8"
           animate={{ height: isDropdownOpen ? 150 : 0 }}
         >
           <ul className="m-4 flex flex-col items-end italic gap-4">

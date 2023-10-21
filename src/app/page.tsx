@@ -8,7 +8,7 @@ import {
 
 export default function Page() {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 mx-auto">
       <Hero />
       <BookNow />
       <NewsletterBanner />
